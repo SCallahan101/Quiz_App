@@ -1,0 +1,382 @@
+html {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-image: url('https://mangapanda.org/SharingImage.jpg');
+  background-size: cover;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background: black;
+  color: #eee;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: 14.5px;
+    margin-top: -20px;
+  }
+}
+
+.container {
+  background-image: url('https://image.freepik.com/free-vector/purple-background-of-colorful-triangles_23-2147616335.jpg');
+  background-size: no-repeat;
+  border: 3px solid gray;
+  width: 85%;
+  height: 450px;
+  margin: 40px auto 0;
+  border-radius: 15px;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: -5px;
+  }
+}
+
+
+#start {
+  display: block;
+  padding: 0px 25px;
+  text-align: center;
+  font-size: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  border: 3px solid gray;
+}
+@media only screen and (max-width: 600px) {
+  #start {
+    font-size: 70px;
+  }
+}
+
+#start-gif {
+  display: block;
+  width: 350px;
+  margin: auto;
+  margin-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+  #start-gif {
+    width:80%;
+    
+  }
+}
+
+#start-quiz {
+  display: block;
+  margin: auto;
+  margin-top: -300px;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  background-color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (max-width: 700px) {
+  #start-quiz{
+    margin-top: -30px;
+    width: 50%;
+    padding: 5px;
+  }
+}
+
+.start-title {
+  display: block;
+  margin: auto 30%;
+  margin-top: 55px;
+  padding: 6px;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px solid grey;
+}
+@media only screen and (max-width: 500px) {
+  .start-title {
+    padding: 6px;
+    margin: auto;
+    margin-top: 40px;
+    width: 50%;
+    
+  }
+}
+
+#scoreboard{
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  border: 3px solid grey;
+}
+
+#submit {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+
+.feedback-message {
+  background-color: white;
+  border-color: 2px solid gray;
+  font-size: 24px;
+  display: block;
+  text-align: center;
+}
+.right {
+  width: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .right {width: 130px}
+}
+.wrong {
+  width: 180px;
+}
+@media only screen and (max-width: 600px) {
+  .wrong{width: 110px;}
+}
+
+.next-button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 30px;
+  position: relative;
+  z-index: 1;
+}
+@media only screen and (max-width: 600px) {
+  .next-button {
+    font-size: 20px;
+    padding: 2px;
+  }
+}
+
+img {
+  width: 190px;
+  border-radius: 10px;
+  border: 3px solid grey;
+}
+
+
+.question-form {
+  background-color: white;
+  margin: 30px auto 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px;
+  border: 3px solid grey;
+  font-size: 24px;
+}
+@media only screen and (max-width: 600px) {
+  .question-form{font-size: 18px;}
+}
+
+
+fieldset {
+  border: 0;
+}
+
+#skip {
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+#skip-me {
+  width: 180px;
+  display: block;
+  margin: auto;
+}
+@media only screen and (max-width: 600px) {
+  #skip-me {
+    width: 110px;
+  }
+}
+
+
+.feedback-message {
+  display: block;
+  margin: 30px auto 20px;
+  padding-top: 10px;
+  border-top: 3px solid gray;
+  border-bottom: 3px solid gray;
+  line-height: .7cm !important;
+}
+@media only screen and (max-width: 600px) {
+  .feedback-message {
+    font-size: 18px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+  }
+}
+
+.feedback-message2 {
+  font-size: 24px;
+}
+@media only screen and (max-width: 700px) {
+  .feedback-message2 {
+    font-size: 14px;
+    line-height: .1px;
+    
+  }
+}
+
+.play-again {
+  display: block;
+  margin: auto;
+  width: auto;
+  height: 60%;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 24px;
+  text-align: center;
+  border: 3px solid grey;
+}
+@media only screen and (max-width: 600px) {
+  .play-again {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+
+
+.final-message {
+  display: block;
+  margin: auto 30%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: -10px;
+  text-align: center;
+  background: white;
+  font-size: 24px;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .final-message {
+    padding: 2px;
+    font-size: 18px;
+  }
+}
+
+.score {
+  display: block;
+  margin: auto 30%;
+  text-align: center;
+  background: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  border: 3px solid grey;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .score {
+    font-size: 18px;
+  }
+}
+
+.doneQuiz {
+  display: block;
+  margin: auto;
+  margin-top: -20px;
+  width: 35%;
+  height: auto;
+  border: 3px solid gray;
+}
+@media only screen and (max-width: 600px) {
+  .doneQuiz {
+    width: 60%;
+    margin-top: 5px;
+  }
+}
+
+.score-section {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#your-score {
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 6px 12px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 25%;
+  float: left;
+}
+@media only screen and (max-width: 600px) {
+  #your-score {
+    width: 35%;
+    font-size: 13px;
+  }
+}
+
+#current-question {
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  text-align: right;
+  padding: 6px ;
+  padding-right: 10px;
+  border: 2px solid white;  
+  border-radius: 5px;
+  width: 25%;
+  float: right;
+}
+@media only screen and (max-width: 600px) {
+  #current-question {
+    width: 35%;
+    font-size: 13px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
