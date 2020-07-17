@@ -1,4 +1,4 @@
-Preview link: https://htmlpreview.github.io/?https://github.com/SCallahan101/Quiz_App/blob/master/index.html
+Preview link: https://scallahan101.github.io/Quiz_App/
 
 Summary: I wanted to create a quiz based on manga knowledge. Also, this is my first big coding project. So forgive me for lack of finesse.  
 
